@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+    background-color: grey;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.music-service {
+    margin-top: 2em;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    height: fit-content;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 20px 10px 20px;
+    box-shadow: -1px 5px 50px 1px black;
+}
+
+i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 1em;
+    font-size: 1.6em;
+}
+
+.fa-youtube {
+    color: red;
+}
+.fa-soundcloud {
+    color: orange;
+}
+
+.fa-spotify {
+    color: green;
+}
+
+button {
+    padding: 1em;
+    border-radius: 5px;
+    border: transparent;
+    font-family: "Zilla Slab", serif;
+    display: flex;
+    margin-left: auto;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    transition: transform 0.4s ease-in-out;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.info h1, p {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Zilla Slab", serif;
+    line-height: 10px;
+}
+
+.info h1 {
+    font-size: 25px;
+}
+
+.info p {
+    opacity: 0.5;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: "Zilla Slab", serif;
+    width: 100%;
+    padding: 1em;
+    margin-top: 5em;
+}
+
+.service p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+
